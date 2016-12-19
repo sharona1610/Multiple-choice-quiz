@@ -9,12 +9,20 @@
 </head>
 <body>
 <h1>Multiple Choice Quiz</h1>
-<div class="ply1_score">Player 1</div>
-<div class="ply2_score">Player 2</div>
+<div class="ply1_score">Player 1: 0</div>
+<div class="ply2_score">Player 2: 0</div>
 <div class="turn"></div>
 <div class="quest"></div>
-<div class="option"></div>
 <div class="result"></div>
+<form>
+  <input type="button" class="start" value="Start">
+  <input type="radio" name="answer" class="radio" id="1"><label class="opt1">option 1</label>
+  <input type="radio" name="answer" class="radio" id="2"><label class="opt2">option 2</label>
+  <input type="radio" name="answer" class="radio" id="3"><label class="opt3">option 3</label>
+  <input type="radio" name="answer" class="radio" id="4"><label class="opt4">option 4</label>
+  <input type="button" class="reset" value="Reset">
+</form>
+
 
   <script
     src="https://code.jquery.com/jquery-3.1.1.min.js"
